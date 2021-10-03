@@ -10,3 +10,9 @@ Education is the act of learning and teaching knowledge through different medium
 - What is the correlation between the literacy rates of young adults with the GDP of the country and the poverty level of the country?
 - Developing a Machine learning model to predict that given the GDP and High School Graduation rates of a country, what percent of the total budget does the government spend on - the education of the populace in the past 20 years.
 - Developing a Machine Learning model to classify the countries according to their GDP given the expenditure on education and the literacy rate of young adults in the past 20 years.
+
+
+# Team members:
+- Nidhi Srinath (nsrinat1@uncc.edu)
+- Kautilya Kondragunta (kkondrag@uncc.edu)
+- Naimisha Churi (nchuri@uncc.edu)
