@@ -12,14 +12,21 @@ Education is the act of learning and teaching knowledge through different medium
 - Developing a Machine Learning model to classify the countries according to their GDP given the expenditure on education and the literacy rate of young adults in the past 20 years.
 
 # Features under analysis 
-- `LowerSecondaryAttainment` 
-- `UpperSecondaryAttainment`	
-- `BachelorsAttainment`	
-- `MastersAttainment	`
-- `DoctoralAttainment `
+- `LowerSecondaryAttainment` - Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative)
+- `UpperSecondaryAttainment`- Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative)
+- `BachelorsAttainment`	- Educational attainment, Bachelors or equivalent, population 25+, total (%) (cumulative)
+- `MastersAttainment	`- Educational attainment, Masters or equivalent, population 25+, total (%) (cumulative)
+- `DoctoralAttainment ` - Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative)
 - `Population	`
 - `GDP`- Gross Domestic Product ($.US) 
 - `% _expenditure_gdp` - Expenditure of government expenditure on education (% of GDP).
+
+# Visualizations
+
+
+
+![image](https://user-images.githubusercontent.com/28112225/142275556-56965586-bfdc-46e0-b876-f4ef10af9a80.png)
+
 
 # Team members:
 - Nidhi Srinath (nsrinat1@uncc.edu)
