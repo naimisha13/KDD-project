@@ -19,7 +19,7 @@ Education is the act of learning and teaching knowledge through different medium
 - `DoctoralAttainment ` - Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative)
 - `Population	`
 - `GDP`- Gross Domestic Product ($.US) 
-- `% _expenditure_gdp` - Expenditure of government expenditure on education (% of GDP).
+- `% _expenditure_gdp` - Portion of government expenditure on education (% of GDP).
 
 # Visualizations
 
