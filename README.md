@@ -23,8 +23,12 @@ Education is the act of learning and teaching knowledge through different medium
 
 # Visualizations
 
+> ### The visualization signifies that there is an increase in the percentage of bachelor's attainment and the growth in GDP.
+![image](https://user-images.githubusercontent.com/28112225/142278436-58a59efc-5e52-496f-9cb5-fb96a67efae4.png)
 
-![image](https://user-images.githubusercontent.com/28112225/142276921-9e64ef60-5406-4574-a6c5-f231be00b241.png)
+
+> ### The distributions of Doctoral attainment vs year for top 7 gdp countries. The output is as expected and USA with the highest GDP (denoted by a bigger marker - higher GDP) has the highest doctoral attainment. 
+
 ![image](https://user-images.githubusercontent.com/28112225/142276753-660f89a5-a6ec-4365-832d-21bfcc392aa0.png)
 
 
