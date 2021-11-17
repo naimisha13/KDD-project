@@ -11,8 +11,20 @@ Education is the act of learning and teaching knowledge through different medium
 - Developing a Machine learning model to predict that given the GDP and High School Graduation rates of a country, what percent of the total budget does the government spend on - the education of the populace in the past 20 years.
 - Developing a Machine Learning model to classify the countries according to their GDP given the expenditure on education and the literacy rate of young adults in the past 20 years.
 
+# Features under analysis 
+- `LowerSecondaryAttainment` 
+- `UpperSecondaryAttainment`	
+- `BachelorsAttainment`	
+- `MastersAttainment	`
+- `DoctoralAttainment `
+- `Population	`
+- `GDP`- Gross Domestic Product ($.US) 
+- `% _expenditure_gdp` - Expenditure of government expenditure on education (% of GDP).
 
 # Team members:
 - Nidhi Srinath (nsrinat1@uncc.edu)
 - Kautilya Kondragunta (kkondrag@uncc.edu)
 - Naimisha Churi (nchuri@uncc.edu)
+
+# Data Sources:
+- World Bank (https://data.worldbank.org)
