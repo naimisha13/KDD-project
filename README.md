@@ -24,8 +24,9 @@ Education is the act of learning and teaching knowledge through different medium
 # Visualizations
 
 
-
 ![image](https://user-images.githubusercontent.com/28112225/142275556-56965586-bfdc-46e0-b876-f4ef10af9a80.png)
+![image](https://user-images.githubusercontent.com/28112225/142276753-660f89a5-a6ec-4365-832d-21bfcc392aa0.png)
+
 
 
 # Team members:
