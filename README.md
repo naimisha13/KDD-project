@@ -74,7 +74,7 @@ We realized that what we had was a task for an Unsupervised machine learning alg
 
 ### Evaluation
 The Gross Domestic Product of the countries has been increasing in a linear fashion throughout the years. We also notice that the educational attainments also follow the same general trend of growing in a linear fashion. 
-> Mexico showing correlation between masters attainment and GDP
+> Mexico showing correlation between masters attainment and GDP & USA's comparision between GDP and all attainment rates
 
 ![image](https://user-images.githubusercontent.com/28112225/144769313-d58ee8d5-5c03-4443-9c21-771f92aee4c4.png)
 ![image](https://user-images.githubusercontent.com/28112225/144769263-fac83145-5b13-499b-9a3d-f4cd2c4c396d.png)
