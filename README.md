@@ -76,8 +76,8 @@ We realized that what we had was a task for an Unsupervised machine learning alg
 The Gross Domestic Product of the countries has been increasing in a linear fashion throughout the years. We also notice that the educational attainments also follow the same general trend of growing in a linear fashion. 
 > Mexico showing correlation between masters attainment and GDP
 
-![image](https://user-images.githubusercontent.com/28112225/144768879-285397ae-2088-4dbe-b4c2-cdac793686d1.png)
-![image](https://user-images.githubusercontent.com/28112225/144769160-110412fc-9c41-4b88-b937-fa4fd10e47bf.png)
+![image](https://user-images.githubusercontent.com/28112225/144769271-b9264344-1bb4-4eed-8c2e-9be45ecb1324.png)
+![image](https://user-images.githubusercontent.com/28112225/144769263-fac83145-5b13-499b-9a3d-f4cd2c4c396d.png)
 
 Countries which has heavily invested in education has indeed shown far greater attainment rates. One such example is the United States. The economic standing of this country does reflect on their educational attainment levels, but is not limited to that. In our Exploratory Data Analysis we uncovered that a few countries (ex: Switzerland) inspite of not having a greater spending on education, still has higher attainment levels than most countries. 
 > Countries showing irregular distributions of Masters Attainment and Expenditure on Education
