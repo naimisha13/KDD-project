@@ -82,7 +82,7 @@ The Gross Domestic Product of the countries has been increasing in a linear fash
 Countries which has heavily invested in education has indeed shown far greater attainment rates. One such example is the United States. The economic standing of this country does reflect on their educational attainment levels, but is not limited to that. In our Exploratory Data Analysis we uncovered that a few countries (ex: Switzerland) inspite of not having a greater spending on education, still has higher attainment levels than most countries. 
 > Countries showing irregular distributions of Masters Attainment and Expenditure on Education
 
-![image](https://user-images.githubusercontent.com/28112225/144769006-2f3951c1-85ac-40f0-9b9d-e4fd256bc959.png)
+![image](https://user-images.githubusercontent.com/28112225/144769349-17040890-e42b-4855-8ced-f10ee537d91f.png)
 
 
 ### More Visualizations
