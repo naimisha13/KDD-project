@@ -56,12 +56,20 @@ Right off the bat, the data we had in hand was very sparse with a lot of null va
 - We converted the columns to their appropriate data types.
 - We dropped all the country-year pairs which had no data for all columns we needed data on [Lower Secondary, Upper Secondary, Bachelors, Masters, Doctoral]. This still has left us with a few null values in a few features!
 - While we tried to solve that issue, we also found out that a few countries had lesser years of data. Like for example - India has only data for 2011. This might be because of the large pupolation in the country and the fact that the Census is once every 10 years. We filtered such countries out too.
-- We're almost there! But, we still had a few countries which were missing a couple of years of attainment and GDP data. So, we turned towards Linear Regression to impute the missing values for those fields.
+- We're almost there! But, we still had a few countries which were missing a couple of years of attainment and GDP data. 
+- We first considered the possibility of using imputation techniques like `ffill` and `bfill`- but, it wouldn't really make sense to use the previous or next values for a feature to fill the null values. 
+- Then we considered `SimpleImputer` which also wouldn't be plausible in our case as mean, median or other simple imputing criterion wouldn't quite preserve the story.
+- `IterativeImputer` considers the values of all the features in the data to impute missing values. But the problem is that the DoctoralAttainment range for most countries lie within the 10% range. Using IterativeImputer filled the null Doctoral values with really high values which doesn't preserve the story as well. We could use a workaround to set the lows and highs for each column, but we we're looking for a better approach. Also, Iterative Imputer needs some data to figure out the relation between the other features and the column with null values and if we give an almost empty data frame as an input to it, we can see that it returns null values again.
+- So, we turned towards Linear Regression to impute the missing values for those fields. Linear Regression trains a model on the known values for that country by using the previous and later years' values to predict the values for the null values for a certain year for that particular country. 
 - Now, we have a fully filled dataset. As amazing as that sounds, we still had to do some feature engineering like deriving the ependiture on education in US Dollars from the %, renaming a few columns for standardization etc.
 
+![image](https://im3.ezgif.com/tmp/ezgif-3-9080d7a99df2.gif)
+
 ### Machine Learning
-We realized that what we had was a task for an Unsupervised machine learning algorithm - To find clusters in our data and extract useful information from them. 
-- Using Agglomerative Clustering from the performed clustering on the features that we are analyzing.
+We realized that what we had was a task for an Unsupervised machine learning algorithm - To find clusters in our data and extract useful information from them. We are using Heirarchical Agglomerative clustering (HAC).
+- HAC provides an insight into the similarity level between any two data points. It uses a bottom up approach, where each country acts as a singleton cluster and works its way up by merging with the next "least distant" data point. This way it merges until all the small clusters merge into one big cluster encompassing all the subclusters.
+- HAC can be useful to derive how "distant" two countries are in terms of similarity, and we can extract intermediate clusters at any threshold.
+- Using Agglomerative Clustering we performed clustering on the features that we are analyzing.
 ![image](https://user-images.githubusercontent.com/28112225/144758922-4186d5d8-1661-45a7-ae80-d98785ea114e.png)
 - We can see that countries cluster primarily according to the investment of the country in Education. Which means that more the investment in education higher the number of people with higher levels of educational attainment which in turn contributes to the rise in the overall GDP of the countries.
 
@@ -73,10 +81,6 @@ The Gross Domestic Product of the countries has been increasing in a linear fash
 ![image](https://user-images.githubusercontent.com/28112225/144769263-fac83145-5b13-499b-9a3d-f4cd2c4c396d.png)
 
 Countries which has heavily invested in education has indeed shown far greater attainment rates. One such example is the United States. The economic standing of this country does reflect on their educational attainment levels, but is not limited to that. In our Exploratory Data Analysis we uncovered that a few countries (ex: Switzerland) inspite of not having a greater spending on education, still has higher attainment levels than most countries. 
-> Countries showing irregular distributions of Masters Attainment and Expenditure on Education
-
-![image](https://user-images.githubusercontent.com/28112225/144769349-17040890-e42b-4855-8ced-f10ee537d91f.png)
-
 
 ### More Visualizations
 > ### The distributions of Doctoral attainment vs year for top 7 gdp countries. The output is as expected and USA with the highest GDP (denoted by a bigger marker - higher GDP) has the highest doctoral attainment. 
