@@ -84,7 +84,7 @@ The Gross Domestic Product of the countries has been increasing in a linear fash
 Countries which has heavily invested in education has indeed shown far greater attainment rates. One such example is the United States. The economic standing of this country does reflect on their educational attainment levels, but is not limited to that. In our Exploratory Data Analysis we uncovered that a few countries (ex: Switzerland) inspite of not having a greater spending on education, still has higher attainment levels than most countries. 
 
 ### More Visualizations
-> ### The distributions of Doctoral attainment vs year for top 7 gdp countries. The output is as expected and USA with the highest GDP (denoted by a bigger marker - higher GDP) has the highest doctoral attainment. 
+> The distributions of Doctoral attainment vs year for top 7 gdp countries. The output is as expected and USA with the highest GDP (denoted by a bigger marker - higher GDP) has the highest doctoral attainment. 
 
 ![image](https://user-images.githubusercontent.com/28112225/142276753-660f89a5-a6ec-4365-832d-21bfcc392aa0.png)
 
