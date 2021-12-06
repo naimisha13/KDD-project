@@ -26,11 +26,11 @@ The data used in this project has been acquired from World Bank's Open data [htt
 
 # CRISP-DM Process
 - Research Phase
-- Data Understanding Phase
-- Data Preparation Phase
+- Data Understanding 
+- Data Preparation 
 - Data Exploration
-- Modeling Phase
-- Evaluation Phase
+- Modelling 
+- Evaluation 
 
 ## Research Phase
 Education is no doubt an important aspect that determines the future of the country. A country's economic growth is driven by new inventions and discoveries in various fields that yield higher revenue for the better-educated labor force and, in turn, for the country. This usually has a positive correlation with the country's Gross Domestic Product (GDP). A few recent studies that looked at the effect of educational expenditure as a proxy for education reported positive growth in education with an increase in expenditure. 
