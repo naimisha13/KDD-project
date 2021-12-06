@@ -64,7 +64,7 @@ Right off the bat, the data we had in hand was very sparse with a lot of null va
 - So, we turned towards Linear Regression to impute the missing values for those fields. Linear Regression trains a model on the known values for that country by using the previous and later years' values to predict the values for the null values for a certain year for that particular country. 
 - Now, we have a fully filled dataset. As amazing as that sounds, we still had to do some feature engineering like deriving the expenditure on education in US Dollars from the %, renaming a few columns for standardization, etc.
 
-![image](https://media2.giphy.com/media/Ripns64G62YzVxE2fS/giphy.gif?cid=790b7611884972f512ed312a223824c57b3ad41e64c2f248&rid=giphy.gif&ct=g)
+![image](https://i.imgur.com/2bQKYYa.gif)
 
 ### Machine Learning
 We realized that what we had was a task for an Unsupervised machine learning algorithm - To find clusters in our data and extract useful information from them. We are using Hierarchical Agglomerative clustering (HAC).
